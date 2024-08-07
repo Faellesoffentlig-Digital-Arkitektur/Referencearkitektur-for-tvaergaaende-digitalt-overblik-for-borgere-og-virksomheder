@@ -1250,14 +1250,6 @@ Den nuværende fuldmagtsløsning understøtter, at der gives fuldmagt til løsni
 
 Dette afsnit beskriver kort mulige implementeringer og kombinationer af services og funktionalitet fra orkestreringslaget, integrationslaget og datakildelaget. De beskrevne scenarier er udvalgt på baggrund af indsigt og erfaringer fra de gennemførte projekter for overblik. Implementeringscenarierne er ikke komplette løsninger, men er veldefinerede dele fra den samlede arkitektur, der kan realiseres som komponenter eller løsningsbyggeblokke. Disse komponenter vil stadig indgå i og overholde den definerede arkitektur.
 
-
-
-
-
-
-
-
-
 | Implementeringsscenarie                                   | Beskrivelse                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Fælles orkestreringskomponent                             | Dette scenarie samler al funktionalitet fra orkestreringslaget i en fælles komponent samt udstiller services tilhørende orkestreringslaget.<br><br>Den fælles komponent vil eksistere i en fællesoffentlig instans og understøtte alle realiserede brugergrænseflader, der udstiller borgervendte overblik.<br><br>Der realiseres en tilsvarende komponent på virksomhedsområdet til udstilling af virksomhedsvendte overblik.<br><br>Herved vil alle brugergrænseflader kun skulle hente standardiserede data til overblik et sted.<br><br>![2 Implementering_C.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\2%20Implementering_C.png)<br><br>Implementeringsscenarie med fælles, central orkestreringskomponent                                                                                                                                                                                                                                                                                                                                                                              |
@@ -1273,8 +1265,6 @@ Dette afsnit beskriver kort mulige implementeringer og kombinationer af services
 Mit Overblik er en løsning, der implementeres på borger.dk, hvor løsningen skal give borgerne et bedre tværgående digitalt overblik over egne forhold og igangværende sager hos offentlige myndigheder.
 
 Referencearkitekturen understøtter Mit Overblik ved, at borger.dk realiserer funktionaliteten for visningsklienter i præsentationslaget og gennem anvendelse af de forskellige implementeringsscenarier beskrevet i afsnittet om målarkitektur (to-be situation - resumé).
-
-
 
 ![Figur 7.4.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%207.4.png)
 
@@ -1506,132 +1496,3 @@ Afsnittet beskriver det baggrundsmateriale, der indgik i udarbejdelsen af refere
 \[21\] Kilde: [Temaside af Eurofound om karakteristik af en medarbejder](https://www.eurofound.europa.eu/observatories/eurwork/industrial-relations-dictionary/employee)
 
 \[22\] Bemærk at implementering af notifikationer på borgerområdet forudsætter en aftale herom mellem de relevante parter.
-
-[Permanent URL til artiklen: https://arkitektur.digst.dk/node/1109](https://arkitektur.digst.dk/node/1109)
-
-[Tilbage til toppen](#top)
-
-Opdateret 14. november 2022
-
-DokumentinformationIndholdsfortegnelse
-
-* [Om denne versions status og anvendelse](#om-denne-versions-status-og-anvendelse)
-* [Forord](#forord)
-* [Resumé](#resum)
-* [Executive Summary (English)](#executive-summary-english)
-* [0\. Introduktion](#0-introduktion)
-  * [Formål og værdi](#forml-og-vrdi)
-  * [Scope](#scope)
-  * [Anvendelse](#anvendelse)
-  * [Målgruppe](#mlgruppe)
-  * [Centrale termer](#centrale-termer)
-  * [Tilblivelse og governance](#tilblivelse-og-governance)
-  * [Anvendt metode og notation](#anvendt-metode-og-notation)
-  * [Læsevejledning](#lsevejledning)
-* [1\. Styring](#1-styring)
-  * [Interessenter](#interessenter)
-  * [Forretningsmål](#forretningsml)
-    * [Uddrag fra digitaliseringsstrategien 2016-2020](#uddrag-fra-digitaliseringsstrategien-2016-2020)
-  * [Styringsrammer](#styringsrammer)
-  * [Gevinster](#gevinster)
-* [2\. Strategi](#2-strategi)
-  * [Vision/målbillede](#visionmlbillede)
-  * [Brugerbehov og forretningsbehov](#brugerbehov-og-forretningsbehov)
-  * [Strategiske kapabiliteter](#strategiske-kapabiliteter)
-  * [Strategiske principper](#strategiske-principper)
-    * [Principper fra referencearkitektur for selvbetjening](#principper-fra-referencearkitektur-for-selvbetjeni)
-    * [Princip 1: Informationer leveret til overblik er retvisende](#princip-1-informationer-leveret-til-overblik-er-re)
-    * [Princip 2: Information leveret til overblik kan distribueres gennem flere kanaler](#princip-2-information-leveret-til-overblik-kan-dis)
-    * [Princip 3: Overblik erstatter ikke selvbetjeningsløsninger](#princip-3-overblik-erstatter-ikke-selvbetjeningsls)
-    * [Princip 4: Information leveret til et overblik ledsages af oplysninger om, hvorledes brugeren kan få yderligere detaljer](#princip-4-information-leveret-til-et-overblik-leds)
-    * [Princip 5: Overblik er altid deklareret i forhold til, hvilke oplysninger brugeren kan forvente at finde i overblikket](#princip-5-overblik-er-altid-deklareret-i-forhold-t)
-    * [Princip 6: Overblik udstilles efter fælles model](#princip-6-overblik-udstilles-efter-flles-model)
-    * [Princip 7: Information, der indgår i et overblik, kan kategoriseres under de klassifikationer, som aftales fællesoffentligt](#princip-7-information-der-indgr-i-et-overblik-kan-)
-    * [Princip 8: Forretningslogik placeres så tæt på datakilden som muligt.](#princip-8-forretningslogik-placeres-s-tt-p-datakil)
-    * [Princip 9: Sikkerhed følger data](#princip-9-sikkerhed-flger-data)
-    * [Princip 10: Præsentationslag og orkestreringslag gemmer ikke data](#princip-10-prsentationslag-og-orkestreringslag-gem)
-  * [Udgangspunkt (as-is situation)](#udgangspunkt-as-is-situation)
-  * [Målarkitektur (to-be situation – resumé)](#mlarkitektur-to-be-situation--resum)
-    * [Forskellige implementeringsscenarier](#forskellige-implementeringsscenarier)
-  * [Gaps og forudsætninger](#gaps-og-forudstninger)
-  * [Migrering til denne referencearkitektur](#migrering-til-denne-referencearkitektur)
-    * [Etablering af overblik på borgerområdet](#etablering-af-overblik-p-borgeromrdet)
-    * [Etablering af overblik på virksomhedsområdet](#etablering-af-overblik-p-virksomhedsomrdet)
-    * [Modning af datadomæner til tværgående overblik](#modning-af-datadomner-til-tvrgende-overblik)
-    * [Migreringsscenarie fra Direkte integration til Via Orkestrering](#migreringsscenarie-fra-direkte-integration-til-via)
-  * [Anbefaling om fælles standarder og løsningsbyggeblokke](#anbefaling-om-flles-standarder-og-lsningsbyggeblok)
-* [3\. Jura](#3-jura)
-  * [Juridiske bindinger](#juridiske-bindinger)
-  * [Dataansvar og aftalestyring](#dataansvar-og-aftalestyring)
-  * [Logning af tilstand](#logning-af-tilstand)
-  * [Læseadgang og samtykke](#lseadgang-og-samtykke)
-    * [Udfordringer omkring fuldmagt](#udfordringer-omkring-fuldmagt)
-  * [Andre påkrævede formelle aftaler.](#andre-pkrvede-formelle-aftaler)
-* [4\. Sikkerhed](#4-sikkerhed)
-  * [Sikkerhedsstrategi / -mønstre](#sikkerhedsstrategi---mnstre)
-  * [Trussels- og risikokatalog](#trussels--og-risikokatalog)
-  * [Sikkerhedsmodel](#sikkerhedsmodel)
-    * [Sikring af orkestreringslaget omfatter:](#sikring-af-orkestreringslaget-omfatter)
-    * [Brugerrettigheder for hvem der har adgang til hvilke data](#brugerrettigheder-for-hvem-der-har-adgang-til-hvil)
-    * [Brugervalidering og udveksling af adgangsbillet](#brugervalidering-og-udveksling-af-adgangsbillet)
-* [5\. Opgaver](#5-opgaver)
-  * [Præsentation](#prsentation)
-  * [Orkestrering](#orkestrering)
-    * [Overblik](#overblik)
-  * [Integration](#integration)
-  * [Datakilder og grundlæggende tjenester](#datakilder-og-grundlggende-tjenester)
-  * [Kataloger](#kataloger)
-    * [Realisering af kataloger](#realisering-af-kataloger)
-  * [Brugerstyring](#brugerstyring)
-  * [Aktører og roller](#aktrer-og-roller)
-  * [Processer](#processer)
-    * [Bruger tilgår overblik](#bruger-tilgr-overblik)
-* [6\. Information](#6-information)
-  * [Forretningsobjekter](#forretningsobjekter)
-  * [Data og information – indsamling og visning](#data-og-information--indsamling-og-visning)
-  * [Standardisering af data](#standardisering-af-data)
-    * [Kriterier for standardisering](#kriterier-for-standardisering)
-    * [Proces for udarbejdelse af fællesoffentlig udstillingsdatamodel (fælles datamodel)](#proces-for-udarbejdelse-af-fllesoffentlig-udstilli)
-  * [Klassifikationer](#klassifikationer)
-  * [Kataloger](#kataloger2)
-* [7\. Applikation](#7-applikation)
-  * [Præsentation](#prsntation2)
-  * [Orkestrering](#orkestrering2)
-  * [Integration](#integration2)
-  * [Datakilder](#datakilder)
-  * [Implementeringsscenarier](#implementeringsscenarier)
-  * [Understøttelse af Mit Overblik](#understttelse-af-mit-overblik)
-  * [Anvendelse af implementeringsmønstre](#anvendelse-af-implementeringsmnstre)
-* [Infrastruktur](#infrastruktur)
-* [Bilag A: Tjekliste](#bilag-a-tjekliste)
-* [Bilag B: Begrebsliste](#bilag-b-begrebsliste)
-* [Bilag C: Implikationer af Hvidbogens principper](#bilag-c-implikationer-af-hvidbogens-principper)
-* [Bilag D: Kataloger](#bilag-d-kataloger)
-* [Bilag E: Oversigt over kilder og baggrundsmateriale](#bilag-e-oversigt-over-kilder-og-baggrundsmateriale)
-* [Fodnoter](#fodnoter)
-
-Titel Referencearkitektur for tværgående digitalt overblik for borgere og virksomheder
-
-Seneste opdateringsdato
-
-17\. maj 2020
-
-Arkitekturperspektiv
-
-Styring
-
-Dokument beskrivelse
-
-Referencearkitekturen for tværgående digitalt overblik sætter pejlemærker for offentlige it-løsninger, der skal bidrage til at give borgere og virksomheder et bedre digitalt overblik over deres anliggender med det offentlige. Referencearkitekturen udpeger blandt andet komponenter, krav til snitflader og fælles principper.
-
-FDA Status
-
-Optaget
-
-Produktlivscyklus
-
-Færdig
-
-Versionsnummer
-
-1.0
