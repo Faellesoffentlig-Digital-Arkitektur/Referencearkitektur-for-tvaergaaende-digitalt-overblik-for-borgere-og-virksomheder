@@ -156,7 +156,7 @@ En referencearkitektur definerer fælles principper, begreber og arkitekturbygge
 
 En referencearkitektur udpeger områder for fælles løsningsbyggeblokke i form af fx specifikationer og komponenter.
 
-![Figur 0.1.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%200.1.png)
+![Figur 0.1.png](assets/Figur%200.1.png)
 
 Figur 0.1 - Sammenhæng mellem Fællesoffentlig rammearkitektur, referencearkitekturer og understøttelse af myndighedernes forretningsmål
 
@@ -387,17 +387,17 @@ Hovedmålet er at skabe velfungerende digitale kanaler, så borgere og virksomhe
 
 Den overordnede visionen blev i foranalysen ”Sags og ydelsesoverblik – behovsanalyse” opsummeret i fem eksemplariske temaer, illustreret i nedenstående tabel[\[7\]](#Fodnote 7). Det bemærkes, at den er udtryk for en langsigtet, illustrativ vision snarere end et konkret politisk aftalt målbillede.
 
-![Figur 2.1.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%202.1.png)
+![Figur 2.1.png](assets/Figur%202.1.png)
 
 Figur 2.1 – Opsummering af vision og brugerbehov til fem eksemplariske temaer
 
 I det foreløbige arbejde med realisering af denne vision er målbilledet bl.a. blevet yderligere detaljeret ved tidlige udkast til overbliksvisninger på borger.dk og Virk. Visningerne er illustrative og er ikke udtryk for, hvordan overblik visuelt bliver implementeret på henholdsvis fx borger.dk og Virk, ligesom det forventes, at disse vil blive udviklet og tilpasset iterativt efter agile metoder.
 
-![Figur 2.2.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%202.2.png)
+![Figur 2.2.png](assets/Figur%202.2.png)
 
 Figur 2.2 - Eksempel på udkast overbliksvisning på borgerområdet
 
-![Figur 2.3.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%202.3.png)
+![Figur 2.3.png](assets/Figur%202.3.png)
 
 Figur 2.3 – Eksempel udkast til visning af pligter og frister - virksomhed
 
@@ -670,11 +670,11 @@ Et sigte med referencearkitekturen er, at der kan udvikles nye gode digitale ove
 
 Nedenstående to figurer illustrerer målarkitekturen på henholdsvis et konceptuelt og (overordnet) logisk niveau med fokus på de vigtigste tjenester. Arkitektur omfatter i princippet et samlet økosystem, der understøtter de ønskede kapabiliteter. Den fulde arkitektur indeholder fire lag og to områder, som går på tværs af de fire lag.
 
-![Figur 2.4.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%202.4.png)
+![Figur 2.4.png](assets/Figur%202.4.png)
 
 Figur 2.4 Konceptuel målarkitektur
 
-![Figur 2.5.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%202.5.png)
+![Figur 2.5.png](assets/Figur%202.5.png)
 
 Figur 2.5 Overordnet logisk målarkitektur med fokus på forretningstjenester
 
@@ -691,7 +691,7 @@ Kapitel 5 uddyber målarkitekturen i et forretningsperspektiv og kapitel 7 i et 
 
 Overblik kan realiseres på mange måder. Denne referencearkitektur definerer en samlet arkitektur, der skal kunne understøtte, at data fra mange kilder kan vise på mange måder på mange visningsklienter. Derfor indeholder den fulde arkitektur de beskrevne fire lag, men over tid vil der være forskellige varianter, der kan komme i spil i konkrete projekter og integrationsløsninger. Nedenstående figur illustrerer dette.
 
-![Figur 2.6.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%202.6.png)
+![Figur 2.6.png](assets/Figur%202.6.png)
 
 Figur 2.6 - Implementeringsscenarier
 
@@ -733,7 +733,7 @@ Etableringen af overblik på borgerområdet gennemføres trinvist frem mod 2024.
 
 Nedenstående illustrerer dette forløb.
 
-![Figur 2.7.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%202.7.png)
+![Figur 2.7.png](assets/Figur%202.7.png)
 
 Figur 2.7 - Etablering af Mit Overblik på borgerområdet
 
@@ -759,7 +759,7 @@ Derfor vil der være situationer, hvor data initielt integreres direkte fra en d
 
 Scenariet migrering fra direkte integration til integration via orkestreringskomponent er illustreret i nedenstående figur.
 
-![Figur 2.8.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%202.8.png)
+![Figur 2.8.png](assets/Figur%202.8.png)
 
 Figur 2.8 - Migreringscenarie for direkte integration til anvendelse af orkestreringskomponent
 
@@ -820,7 +820,7 @@ De mest relevante love og forordninger med særligt fokus på dannelse og visnin
 
 Det datamæssige ansvar for data, der vises i overblik - herunder selve præsentation og konteksten fx på en portal -, ligger hos datakilden, hvilket danner fundamentet for det aftalemæssige setup, der skal etableres for et overblik. Nedenstående figur illustrerer det aftalemæssige setup, der skal etableres. Det skal bemærkes, at der her er taget udgangspunkt i persondata, som kræver databehandlerafttaler. For andre typer data kan der være et andet setup.
 
-![Figur 3.1.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%203.1.png)
+![Figur 3.1.png](assets/Figur%203.1.png)
 
 Figur 3.1 – Setup for databehandleraftaler
 
@@ -946,7 +946,7 @@ Der etableres trust mellem præsentationslaget og de øvrige lag, hvor de aktuel
 
 Afsnittet indeholder beskrivelse af de forretningskapabiliteter, referencearkitekturen peger på for at realisere visionen og det opstillede målbillede. Det forretningsmæssige målbillede i afsnittet om _målarkitektur (to-be situation – resumé)_ præsenterer en række tjenester, som uddybes og specificeres nærmere i nærværende afsnit.
 
-![Figur 5.1.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%205.1.png)
+![Figur 5.1.png](assets/Figur%205.1.png)
 
 Figur 5.1 Forretningsmæssige tjenester og kapabiliteter
 
@@ -1035,7 +1035,7 @@ Aktører, der indgår referencearkitekturen, er:
 
 I forhold til overblik og referencearkitekturens scope kan aktørerne have følgende roller. Hvilke specifikke roller, den enkelte aktør kan have tilknyttet, er illustreret i nedenstående aktør/rolle-model.
 
-![Figur 5.2.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%205.2.png)
+![Figur 5.2.png](assets/Figur%205.2.png)
 
 Figur 5.2 - Relation mellem aktører og roller
 
@@ -1056,7 +1056,7 @@ I dette afsnit vises et eksempel på en typisk anvendelsessituation for overblik
 
 ”Brugeren tilgår overblik” viser, hvorledes processen for en brugers anvendelse af overblik kan foregå. Processen viser et sagsoverblik, men samme forløb vil være gældende for andre datadomæner fx aftaler. Figuren og beskrivelsen forholder sig ikke til anvendelse af integrationsmønstre for kald af tjenester og levering af data, samt hvorledes en visning vil ske på brugergrænsefladen. Anvendelse af integrationsmønstre er beskrevet under applikationsperspektivet.
 
-![Figur 5.3.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%205.3.png)
+![Figur 5.3.png](assets/Figur%205.3.png)
 
 Figur 5.3 - Bruger tilgår overblik
 
@@ -1083,7 +1083,7 @@ Forretningsmæssige data - repræsenteret ved kerneforretningsobjekter - bliver 
 
 Referencearkitekturen omfatter i sig selv meget begrænset information, da arkitekturens scope er flowet fra datakilder til brugergrænsefladen. I overblik indgår forskellige typer af data, hvilket er illustreret i nedenstående konceptuelle model.
 
-![Figur 6.1.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%206.1.png)
+![Figur 6.1.png](assets/Figur%206.1.png)
 
 Figur 6.1 Konceptuel model for data der indgår i overblik
 
@@ -1127,7 +1127,7 @@ Processen tager udgangspunkt i, at der er etableret et grundlag gennem udarbejde
 
 Den fulde proces med angivelse af grundlag/input er illustreret i nedenstående figur. Erfaringer fra ADDA-projektet viser klart, at processen skal gennemføres iterativt, og løbende afprøvninger af visning af data på en brugergrænseflade giver stor indsigt i, hvilke data, hjælpedata og metadata der for det enkelte overblik er relevante og giver værdi for brugeren. Dette kan fx være hvor mange og hvilke overbliksdetaljeringsniveauer, der giver mening, hvor dette ikke nødvendigvis er ens for alle myndigheder og datakilder. Det vil bero på en konkret forretningsmæssig vurdering ud fra brugerbehov og muligheder.
 
-![Figur 6.2.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%206.2.png)
+![Figur 6.2.png](assets/Figur%206.2.png)
 
 Figur 6.2 - Proces for udarbejdelse af fælles udstillingsmodel
 
@@ -1139,7 +1139,7 @@ Referencearkitekturen peger på følgende styrings- og vedligeholdelsessetup:
 * Datamodeller indlægges og samles i et fælles modelleringsværktøj og repositorie, der vedligeholdes af Digitaliseringsstyrelsen.
 * Der udpeges en modelredaktør for den enkelte datamodel, der er ansvarlig for og udførende på den løbende forvaltning af datamodeller og tilhørende klassifikationer og sikrer, at gældende versioner af datamodeller er tilgængelige for anvendere.
 
-![Figur 6.3.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%206.3.png)
+![Figur 6.3.png](assets/Figur%206.3.png)
 
 Figur 6.3 - Styring og vedligeholdelse af modeller
 
@@ -1186,7 +1186,7 @@ De vigtigste applikationsbyggeblokke for Orkestreringslaget er gengivet i nedens
 
 På figuren fremgår også to applikationsbyggeblokke, Indeks-opdatering og Binært-indeks. Disse to byggeblokke kan placeres på både orkestreringslaget og integrationslaget, men er beskrivelsesmæssigt medtaget her.
 
-![Figur 7.1.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%207.1.png)
+![Figur 7.1.png](assets/Figur%207.1.png)
 
 Figur 7.1 - Orkestrering
 
@@ -1208,7 +1208,7 @@ Orkestrering udstiller 2 typer services - liste og detaljer - samt omfatter en r
 
 Integrationslagets primære funktionalitet er i forhold til den enkelte datakilde eller indeks at gøre data tilgængelig for orkestreringslaget, i et format der overholder den fælles datamodel for det aktuelle datadomæne, samt sikre at data er beriget med kontekstspecifikke data, der er relevante for overblik, og at data er klassificeret i henhold til aftalte klassifikationer.
 
-![Figur 7.2.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%207.2.png)
+![Figur 7.2.png](assets/Figur%207.2.png)
 
 Figur 7.2 - Integration
 
@@ -1231,7 +1231,7 @@ Integrationslaget udstiller på nuværende tidspunkt to generiske services samt 
 
 Datakilder repræsenterer alle datakilder, der leverer data til overblik gennem den arkitektur, som referencearkitekturen beskriver. For datakildelaget beskrives to emner: Hvilke services som datakilder forventes at udstille, og hvilke krav som datakilden bør opfylde.
 
-![Figur 7.3.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%207.3.png)
+![Figur 7.3.png](assets/Figur%207.3.png)
 
 Figur 7.3 - Datakilder
 
@@ -1252,10 +1252,10 @@ Dette afsnit beskriver kort mulige implementeringer og kombinationer af services
 
 | Implementeringsscenarie                                   | Beskrivelse                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Fælles orkestreringskomponent                             | Dette scenarie samler al funktionalitet fra orkestreringslaget i en fælles komponent samt udstiller services tilhørende orkestreringslaget.<br><br>Den fælles komponent vil eksistere i en fællesoffentlig instans og understøtte alle realiserede brugergrænseflader, der udstiller borgervendte overblik.<br><br>Der realiseres en tilsvarende komponent på virksomhedsområdet til udstilling af virksomhedsvendte overblik.<br><br>Herved vil alle brugergrænseflader kun skulle hente standardiserede data til overblik et sted.<br><br>![2 Implementering_C.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\2%20Implementering_C.png)<br><br>Implementeringsscenarie med fælles, central orkestreringskomponent                                                                                                                                                                                                                                                                                                                                                                              |
-| Domæneindeks                                              | Domæneindeks er en realisering af al funktionalitet i integrationslaget for et datadomæne, eksklusiv kataloger og klassifikationer, der er eksterne services i forhold til integration.<br><br>Domæneindeks udstiller integrationslagsservices for datadomænet.<br><br>Domæneindeks vil have integration til en eller flere datakilder og kan lagre udvalgte data. Domæneindeks vil være en realisering af implementeringsmønsteret Datadistributør (med brug af indeks, beskrevet i referencearkitektur for deling af data og dokumenter.<br><br><br>![1 Implementering B.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\1%20Implementering%20B.png)<br>Implementeringsscenarie                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Staging-komponent                                         | Staging-komponent samler al funktionalitet fra integrationslaget og realiserer en intern implementering af datakilde services.<br><br>Datakilde services implementeres ovenpå en kopi af data fra datakilden, der er lagret i og vedligeholdt af Staging-komponenten.<br><br>Hvorledes integration mellem datakilde og Staging-komponent implementeres, forholder scenariet sig ikke til. Men det anbefales at tage udgangspunkt i de tekniske muligheder, som datakilden har.<br><br>Staging-komponent skal også varetage brugerstyring for data og understøtte anvendelse af fuldmagt på data på lige fod med en anden datakilde.<br><br>Set fra orkestreringslaget vil dette implementerings-scenarie udstille alle integrationslagets services og kan anvendes på lige fod med andre realiseringer af integrationslaget.<br><br>Scenariet kan være relevant for gamle legacy systemer og systemer, der afvikles på en teknologisk forældet platform.<br><br>![3 Implementering B2.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\3%20Implementering%20B2.png)<br><br>Implementeringsscenarie |
-| Datakilde leverer direkte til orkestreringslag            | Dette scenarie indebærer, at datakilden selv udstiller de services, som integrationslaget specificerer og selv håndterer den funktionalitet, som integrationslaget omfatter - fx transformation.<br><br>Dette scenarie er anvendeligt for nye systemer, hvis interne datamodel ligger meget tæt op af den fælles datamodel. Dvs., der er minimalt behov for egentlig transformation, men stadig berigelse og klassifikation.<br><br><br>![](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\4%20Implementering%20C2.png)<br>Implementeringsscenarie med fælles, central orkestreringskomponent                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Fælles orkestreringskomponent                             | Dette scenarie samler al funktionalitet fra orkestreringslaget i en fælles komponent samt udstiller services tilhørende orkestreringslaget.<br><br>Den fælles komponent vil eksistere i en fællesoffentlig instans og understøtte alle realiserede brugergrænseflader, der udstiller borgervendte overblik.<br><br>Der realiseres en tilsvarende komponent på virksomhedsområdet til udstilling af virksomhedsvendte overblik.<br><br>Herved vil alle brugergrænseflader kun skulle hente standardiserede data til overblik et sted.<br><br>![2 Implementering_C.png](assets/2%20Implementering_C.png)<br><br>Implementeringsscenarie med fælles, central orkestreringskomponent                                                                                                                                                                                                                                                                                                                                                                              |
+| Domæneindeks                                              | Domæneindeks er en realisering af al funktionalitet i integrationslaget for et datadomæne, eksklusiv kataloger og klassifikationer, der er eksterne services i forhold til integration.<br><br>Domæneindeks udstiller integrationslagsservices for datadomænet.<br><br>Domæneindeks vil have integration til en eller flere datakilder og kan lagre udvalgte data. Domæneindeks vil være en realisering af implementeringsmønsteret Datadistributør (med brug af indeks, beskrevet i referencearkitektur for deling af data og dokumenter.<br><br><br>![1 Implementering B.png](assets/1%20Implementering%20B.png)<br>Implementeringsscenarie                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| Staging-komponent                                         | Staging-komponent samler al funktionalitet fra integrationslaget og realiserer en intern implementering af datakilde services.<br><br>Datakilde services implementeres ovenpå en kopi af data fra datakilden, der er lagret i og vedligeholdt af Staging-komponenten.<br><br>Hvorledes integration mellem datakilde og Staging-komponent implementeres, forholder scenariet sig ikke til. Men det anbefales at tage udgangspunkt i de tekniske muligheder, som datakilden har.<br><br>Staging-komponent skal også varetage brugerstyring for data og understøtte anvendelse af fuldmagt på data på lige fod med en anden datakilde.<br><br>Set fra orkestreringslaget vil dette implementerings-scenarie udstille alle integrationslagets services og kan anvendes på lige fod med andre realiseringer af integrationslaget.<br><br>Scenariet kan være relevant for gamle legacy systemer og systemer, der afvikles på en teknologisk forældet platform.<br><br>![3 Implementering B2.png](assets/3%20Implementering%20B2.png)<br><br>Implementeringsscenarie |
+| Datakilde leverer direkte til orkestreringslag            | Dette scenarie indebærer, at datakilden selv udstiller de services, som integrationslaget specificerer og selv håndterer den funktionalitet, som integrationslaget omfatter - fx transformation.<br><br>Dette scenarie er anvendeligt for nye systemer, hvis interne datamodel ligger meget tæt op af den fælles datamodel. Dvs., der er minimalt behov for egentlig transformation, men stadig berigelse og klassifikation.<br><br><br>![](assets/4%20Implementering%20C2.png)<br>Implementeringsscenarie med fælles, central orkestreringskomponent                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Kataloger                                                 | Nye kataloger kan realiseres som MVP-løsning som simple lister og er en specialisering af Overbliks-detaljer, hvor eksisterende kataloger understøtter behovet anvendes disse - fx datasætkatalog som katalog over datakilder.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Klassifikationer                                          | De nye klassifikationer, der oprettes til brug for overblik, kan som mulig MVP-løsning realiseres som simple lister - fx udstillet på arkitektur.digst.dk eller anden egnet site.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | Realisering af orkestreringslag med anvendelse af GraphQL | Teknologier som fx GraphQL kan muligvis anvendes som teknologiplatform for realisering af orkestreringslaget.<br><br>Dette er relevant, hvis der forretningsmæssigt bliver behov for at tilgå sammenstillede data gennem et formaliseret forespørgselssprog frem for anvendelse af mere faste REST services.<br><br>Her gøres opmærksom på, at kapabiliteter i orkestreringslaget skal opfyldes af den valgte GraphQL platform.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -1266,7 +1266,7 @@ Mit Overblik er en løsning, der implementeres på borger.dk, hvor løsningen sk
 
 Referencearkitekturen understøtter Mit Overblik ved, at borger.dk realiserer funktionaliteten for visningsklienter i præsentationslaget og gennem anvendelse af de forskellige implementeringsscenarier beskrevet i afsnittet om målarkitektur (to-be situation - resumé).
 
-![Figur 7.4.png](C:\Users\B339605\Documents\GitHub\Referencearkitektur-for-tvaergaaende-digitalt-overblik-for-borgere-og-virksomheder\assets\Figur%207.4.png)
+![Figur 7.4.png](assets/Figur%207.4.png)
 
 Figur 7.4 – Programmet Mit Overblik realiserer en række af referencearkitekturens kapabiliteter
 
