@@ -212,7 +212,7 @@ Denne referencearkitektur er del af rammearkitekturen i den fællesoffentlige di
 * Fællesoffentlig referencearkitektur for selvbetjening
 * Fællesoffentlig referencearkitektur for deling af data og dokumenter.
 
-For en introduktion til og overblik over den samlede rammearkitektur samt relateret information henvises til [siden om rammearkitekturen](/rammearkitektur), hvor denne referencearkitektur også publiceres.
+For en introduktion til og overblik over den samlede rammearkitektur samt relateret information henvises til [siden om rammearkitekturen](https://github.com/Faellesoffentlig-Digital-Arkitektur/Faellesoffentlig-rammearkitektur/blob/main/Faellesoffentlig-rammearkitektur.md), hvor denne referencearkitektur også publiceres.
 
 Til konkrete implementeringsprojekter vil denne referencearkitektur blive suppleret af andre dokumenter i form af fx detaljerede begrebs- og datamodeller, dataudvekslingsformater, integrationsmønstre, snitfladebeskrivelser og vejledninger.
 
