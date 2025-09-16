@@ -182,7 +182,7 @@ Dette dokument er på forskellig vis relevant for tre overordnede målgrupper:
 
 ### Centrale termer
 
-Dette afsnit indeholder en beskrivelse af termer, der er centrale for læseren for at forstå referencearkitekturen. _Bilag B Begrebsliste_ indeholder definitioner og en samlet oversigt over referencearkitekturens begreber og terminologi. For generelle FDA-termer og begreber henvises [til undersiden om FDA begreber FDA begreber](/node/630).
+Dette afsnit indeholder en beskrivelse af termer, der er centrale for læseren for at forstå referencearkitekturen. _Bilag B Begrebsliste_ indeholder definitioner og en samlet oversigt over referencearkitekturens begreber og terminologi. For generelle FDA-termer og begreber henvises [til undersiden om FDA begreber FDA begreber](https://arkitektur.digst.dk/kom-i-gang/portefoelje/begreber).
 
 | Central term                   | Beskrivelse                                                                                                                                                                                                                                                                          |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
