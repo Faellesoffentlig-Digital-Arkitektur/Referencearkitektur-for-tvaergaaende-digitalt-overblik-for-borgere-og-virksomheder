@@ -10,7 +10,7 @@ Referencearkitekturen kan frit anvendes af myndigheder, leverandører og andre i
 
 Det er forventningen, at erfaringer med anvendelse af referencearkitekturen vil give anledning til nye erkendelser og indsigt, der kan give anledning til at opdatere referencearkitekturen. Forslag til opdateringen kan sendes til [arkitektur@digst.dk](mailto:arkitektur@digst.dk). Det forventes, at referencearkitekturen senest vil blive konsolideret på baggrund af erfaringerne fra ovennævnte projekter omkring årsskiftet 2020/21.
 
-Bemærk, at specifikke dataområder, opgaver, myndigheder og it-systemer, der nævnes i nærværende dokument, skal betragtes som eksempler. Konkrete aftaler og planer for anvendelsen afklares i fællesoffentlig regi i af styregruppen for digital kommunikation. Der henvises til [Mit overblik på Digitaliseringsstyrelsens hjemmeside](https://digst.dk/it-loesninger/borgerdk/mit-overblik/om-mit-overblik-paa-borgerdk/)
+Bemærk, at specifikke dataområder, opgaver, myndigheder og it-systemer, der nævnes i nærværende dokument, skal betragtes som eksempler. Konkrete aftaler og planer for anvendelsen afklares i fællesoffentlig regi i af styregruppen for digital kommunikation. Der henvises til [Mit overblik på Digitaliseringsstyrelsens hjemmeside](https://digst.dk/it-loesninger/borgerdk/mit-overblik/)
 
 |     |     |     |
 | --- | --- | --- |Versionsinfo
