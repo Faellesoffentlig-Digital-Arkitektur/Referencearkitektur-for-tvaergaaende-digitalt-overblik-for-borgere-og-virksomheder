@@ -12,8 +12,7 @@ Det er forventningen, at erfaringer med anvendelse af referencearkitekturen vil 
 
 Bemærk, at specifikke dataområder, opgaver, myndigheder og it-systemer, der nævnes i nærværende dokument, skal betragtes som eksempler. Konkrete aftaler og planer for anvendelsen afklares i fællesoffentlig regi i af styregruppen for digital kommunikation. Der henvises til [Mit overblik på Digitaliseringsstyrelsens hjemmeside](https://digst.dk/it-loesninger/borgerdk/mit-overblik/)
 
-|     |     |     |
-| --- | --- | --- |Versionsinfo
+Versionsinfo
 | Version | Dato | Ændring |
 | --- | --- | --- |
 | 1.0 | 17.05.2020 | Efter aftale i Udvalget for arkitektur og standarder er det ved en ændring af dokumentets titel og en række tilføjelser i teksten gjort tydeligt, at referencearkitekturen har tværgående digitale overblik som scope. Endvidere er tilføjet alternative tekster til billeder og tabeller, ligesom der er foretaget enkelte andre justeringer af hensyn til tilgængelighed. |
