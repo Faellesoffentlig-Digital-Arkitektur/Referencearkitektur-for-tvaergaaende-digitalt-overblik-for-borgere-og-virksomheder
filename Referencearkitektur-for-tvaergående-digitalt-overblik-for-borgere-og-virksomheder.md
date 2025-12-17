@@ -292,7 +292,7 @@ Referencearkitekturen er en del af realiseringen af initiativ 1.3 i Den fælleso
 
 Den offentlige sektor skal være mere gennemskuelig. Borgere og virksomheder skal derfor have lettere adgang til at se, hvilke data om dem selv en myndighed har. Og brugerne skal have større indsigt i deres sager, ansøgninger, data og relationer med offentlige myndigheder.
 
-I [Digitaliseringspagten](https://digst.dk/media/19919/digitaliseringspagt-en-ny-retning-for-det-faellesoffentlige-samarbejde.pdf) (marts 2019) mellem Regeringen, KL og Danske Regioner fremgår det at:
+I en tidligere **Digitaliseringspagt** mellem Regeringen, KL og Danske Regioner fremgår det at:
 
 Regeringen, KL og Danske Regioner vil igangsætte en markant indsats, der skal give borgerne et bedre overblik og mere gennemsigtighed i den digitale offentlige service. Parterne er enige om, at øget gennemsigtighed og nemmere adgang til oplysninger om egne forhold er centrale elementer for at sikre, at borgerne er trygge ved digitaliseringen. Initiativet er et vigtigt skridt i retning af at styrke tilliden og realisere den fælles målsætning.
 
