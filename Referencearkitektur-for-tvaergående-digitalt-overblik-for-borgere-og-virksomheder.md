@@ -1475,15 +1475,15 @@ Afsnittet beskriver det baggrundsmateriale, der indgik i udarbejdelsen af refere
 
 \[11\] Se [Digitaliseringsstyrelsens temaside om overblik over egne sager og ydelser](https://digst.dk/digital-service/brugeroplevelse/)
 
-\[12\] I KL's projekt 'Borgerens Adgang til Egne Data' har KL i samarbejde med 5 kommuner, borger.dk og KOMBIT udviklet løsningen Borgerblikket. Med Økonomiaftalen for 2020 er Borgerblikket blevet en del af det fællesoffentlige tiltag om Mit Overblik. Se [KL's temaside om Mit Overblik](https://www.kl.dk/okonomi-og-administration/digitalisering-og-teknologi/sammenhaengende-digital-borgerservice/projektet-om-borgerens-adgang-til-egne-data/)
+\[12\] I KL's projekt 'Borgerens Adgang til Egne Data' har KL i samarbejde med 5 kommuner, borger.dk og KOMBIT udviklet løsningen Borgerblikket. Med Økonomiaftalen for 2020 er Borgerblikket blevet en del af det fællesoffentlige tiltag om Mit Overblik. Se [KL's temaside om Mit Overblik](https://www.kl.dk/oekonomi-og-administration/digitalisering-og-teknologi/borgerservice-og-kommunikation/borgerblikketmit-overblik)
 
 \[13\] DIGST har gennemført PoC på orkestreringskomponent til borgervendte overblik og ERST har gennemført PoC på virksomhedsvendte overblik
 
-\[14\] Se [Temaside om Sag- og Dokumentstandarder i den fællesoffentlige digitale rammearkitektur](https://arkitektur.digst.dk/rammearkitektur/sag-og-dokument-standarder)
+\[14\] Se [Specifikationer om Sag- og Dokumentstandarder i den fællesoffentlige digitale rammearkitektur](https://arkitektur.digst.dk/specifikationer/sag)
 
-\[15\] [https://www.datatilsynet.dk/media/6893/registreredes-rettigheder.pdf](https://www.datatilsynet.dk/media/6893/registreredes-rettigheder.pdf)
+\[15\] [https://www.datatilsynet.dk/Media/C/0/Registreredes%20rettigheder.pdf](https://www.datatilsynet.dk/Media/C/0/Registreredes%20rettigheder.pdf)
 
-\[16\] ISO 27001 skal følges af statslige myndigheder: [https://digst.dk/sikkerhed/iso27001/](https://digst.dk/sikkerhed/iso27001/)
+\[16\] ISO 27001 skal følges af statslige myndigheder: [https://digst.dk/nyheder/nyhedsarkiv/2023/september/opdatering-af-sikkerhedsstandarden-iso-27001...](https://digst.dk/nyheder/nyhedsarkiv/2023/september/opdatering-af-sikkerhedsstandarden-iso-27001-og-overgangsperiode-for-statslige-myndigheder/)
 
 \[17\] FIT: Fortrolighed, Integritet, Tilgængelighed (engelsk: CIA)
 
