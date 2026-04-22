@@ -1321,7 +1321,7 @@ Bilaget indeholder en oversigt over de væsentligste krav og anbefalinger, der k
 
 ## Bilag B: Begrebsliste
 
-Indeholder en samlet begrebsliste over referencearkitekturens begreber og terminologi, som følger begrebslisteskabelonen i modelreglerne. [Skabelonen og yderligere information findes på FDA's hjemmeside](/node/694).
+Indeholder en samlet begrebsliste over referencearkitekturens begreber og terminologi, som følger begrebslisteskabelonen i modelreglerne. [Skabelonen og yderligere information findes på FDA's hjemmeside](https://arkitektur.digst.dk/node/694).
 
 |     |     |
 | --- | --- |Metadata for begrebsmodel
