@@ -13,6 +13,7 @@ Det er forventningen, at erfaringer med anvendelse af referencearkitekturen vil 
 Bemærk, at specifikke dataområder, opgaver, myndigheder og it-systemer, der nævnes i nærværende dokument, skal betragtes som eksempler. Konkrete aftaler og planer for anvendelsen afklares i fællesoffentlig regi i af styregruppen for digital kommunikation. Der henvises til [Mit overblik på Digitaliseringsstyrelsens hjemmeside](https://digst.dk/it-loesninger/borgerdk/mit-overblik/)
 
 Versionsinfo
+
 | Version | Dato       | Ændring |
 |--------|------------|---------|
 | 1.0    | 17.05.2020 | Efter aftale i Udvalget for arkitektur og standarder er det ved en ændring af dokumentets titel og en række tilføjelser i teksten gjort tydeligt, at referencearkitekturen har tværgående digitale overblik som scope. Endvidere er tilføjet alternative tekster til billeder og tabeller, ligesom der er foretaget enkelte andre justeringer af hensyn til tilgængelighed. |
@@ -341,10 +342,8 @@ Gevinster kan både være positive og negative samt være spille sammen. Der kan
 
 Påmindelser om frister, hvor en myndighed har behov for information fra brugeren, vil også kunne drive trafik til myndighederne og kunne afhjælpe nogle af de udfordringer, som omhandler for sent afleverede dokumenter og registreringer og dermed skabe hurtigere sagsbehandling samt bedre forudsætninger for at undgå rykkere.
 
-|     |
-| --- |Forretningsmæssige gevinster for borgere og virksomheder:
-| Gevinster for borgere og virksomheder |
-| --- |
+| Forretningsmæssige gevinster for borgere og virksomheder: |
+| :--- |
 | 1\. Tværgående overblik medvirker til, at brugere selv løser deres opgaver uden behov for hjælp fra en myndighed/sagsbehandler. |
 | 2\. Større tryghed for borgere og virksomheder omkring myndigheders sagsbehandling. |
 | 3\. En samlet kanal for borgere og virksomheder hvor de kan få overblik over deres engagementer med det offentlige. |
@@ -352,10 +351,8 @@ Påmindelser om frister, hvor en myndighed har behov for information fra brugere
 | 5\. Virksomheder kan få bedre overblik over fx frister i forhold indberetning mv. til myndigheder. |
 | 6\. Brugere kan gennem overblikket observere eventuelle fejl og initiere proces til rettelse af fejl. |
 
-|     |
-| --- |Forretningsmæssige gevinster for myndigheder:
-| Gevinster for myndigheder |
-| --- |
+| Forretningsmæssige gevinster for myndigheder: |
+| :--- |
 | 1\. Brugerne informeres og opfordres til at løse deres udeståender gennem selvbetjening. |
 | 2\. Muligheden for at drive trafik hen til myndighedernes egne selvbetjeningsløsninger (nudging). |
 | 3\. Færre henvendelser fra virksomheder om frister og indberetninger ved at der er et klart og brugervenligt overblik over, hvornår virksomheden skal indberette oplysninger. |
@@ -364,10 +361,8 @@ Påmindelser om frister, hvor en myndighed har behov for information fra brugere
 | 6\. Vil medføre færre indsigtshenvendelser, når borgere og virksomheder selv kan få vist overblikket, når de har brug for det. Den øgede gennemsigtighed kan på kort sigt give flere henvendelser. |
 | 7\. Myndigheder kan nemmere præsentere egne og andres data ensrettet og harmoniseret og i nye overbliksvisninger. |
 
-|     |
-| --- |Forretningsmæssige gevinster for andre aktører:
-| Gevinster for andre aktører |
-| --- |
+| Forretningsmæssige gevinster for andre aktører: |
+| :--- |
 | 1\. Det er nemmere for portaler og andre visningsklienter at etablere og vise digitale overblik. |
 | 2\. Andre projekter og initiativer kan udnytte arkitekturen til visning af data, fx log-overblik og samlet visning af samtykker. |
 
@@ -1323,8 +1318,8 @@ Bilaget indeholder en oversigt over de væsentligste krav og anbefalinger, der k
 
 Indeholder en samlet begrebsliste over referencearkitekturens begreber og terminologi, som følger begrebslisteskabelonen i modelreglerne. [Skabelonen og yderligere information findes på FDA's hjemmeside](https://arkitektur.digst.dk/node/694).
 
-|     |     |
-| --- | --- |Metadata for begrebsmodel
+| Metadata for begrebsmodel  |     |
+| --- | --- |
 | Namespace | `https://data.gov.dk/concept/profile/digitaltoverblik/` |
 | Modelnavn | Tværgående digitalt overblik for borgere og virksomheder |
 | Modelansvarlig | Digitaliseringsstyrelsen |
@@ -1340,8 +1335,8 @@ Indeholder en samlet begrebsliste over referencearkitekturens begreber og termin
 | Sprog | Dansk |
 | Beskrivelse | Begrebsmodel for begreber i referencearkitektur for digitalt overblik |
 
-|     |     |     |     |     |     |     |     |     |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |Begreber
+| Begreber |     |     |     |     |     |     |     |     |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Foretrukken term | Accepteret term | Frarådet term | Definition | Eksempel | Kommentar | Juridisk kilde | Kilde | tilhører emneområde |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | **tværgående overblik** |     |     | _Visning af information vedrørende den enkelte borgers og virksomheds anliggender med det offentlige, som er konkret, relevant og overbliksskabende for den enkelte borger eller virksomhed_ |     |     |     | FDA Referencearkitektur for tværgående digitalt overblik |     |
