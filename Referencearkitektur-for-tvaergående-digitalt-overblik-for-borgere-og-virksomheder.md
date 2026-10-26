@@ -1138,7 +1138,7 @@ Referencearkitekturen peger på følgende styrings- og vedligeholdelsessetup:
 
 Figur 6.3 - Styring og vedligeholdelse af modeller
 
-Som beskrevet i kapitel ?Opgaver, bør det være muligt at opmærke data, således at brugergrænsefladen kan vise en notifikation[\[22\]](#Fodnote 22) for brugeren. De udviklede datamodeller til overbliksdata skal understøtte denne mulighed for opmærkning.
+Som beskrevet i kapitel 5 Opgaver, bør det være muligt at opmærke data, således at brugergrænsefladen kan vise en notifikation[\[22\]](#Fodnote 22) for brugeren. De udviklede datamodeller til overbliksdata skal understøtte denne mulighed for opmærkning.
 
 ### Klassifikationer
 
